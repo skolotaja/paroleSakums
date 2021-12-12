@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Virsraksts</title>
+    <title>Paroles</title>
+    <meta charset="utf8"/>
     <link href="style.css" rel="stylesheet" />
 </head>
+
 <body>
+    <h1>Smieklīgo paroļu ģenerators</h1>
     <div class="wrapper">
-        <h1>Smieklīgo paroļu ģenerators</h1>
+        <input type="button" value="Veidot paroli" onclick="generetParoles"/>
+        <br></br>
+        <table>
+            <thead>
+                <tr>
+                    <td>Nr</td>
+                    <td>Parole</td>
+                </tr>
+            </thead>
+            <tbody class="rindas"></tbody>
+        </table>
 
     </div>
     <!--end class=wrapper-->
