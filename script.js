@@ -22,7 +22,7 @@ function generetParoles() {
         let parole3 = vardi3[rand3];
 
 //let random = Math.ceil(Math.random() * 10);
-        let parole = parol[i] + parole[i] + parole[i];
+        let parole = parole[i] + parole[i] + parole[i];
         rindas.innerHTML += `
         <tr>
         <td>${i + 1}</td>
